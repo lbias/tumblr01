@@ -43,7 +43,7 @@ a {
 	ul {
 		list-style: none;
 		text-align: right;
-		padding-right: 3em;
+		padding-right: 2em;
 		.category {
 			font-weight: 900;
 			font-size: 2.5em;
@@ -263,3 +263,29 @@ a {
 		}
 	}
 }
+
+.categorys{
+	 font-weight: 900;
+	 font-size: 1.5em;
+	 text-transform: uppercase;
+	 color: #22747b;
+	 list-style: none;
+
+	 padding-left: 2em;
+
+}
+
+.number2{
+ color: #FFF;
+ text-decoration: none;
+ transition: all .4s ease;
+ padding-left: 6em;
+ padding-bottom: 1em;
+ list-style-type: none;
+}
+
+.body {
+		 font-size: 1.1em;
+		 line-height: 1.75;
+		 color: black;
+	 }

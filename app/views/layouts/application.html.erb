@@ -11,11 +11,11 @@
 
   <body>
     <div id="sidebar">
-      <ui>
+      <ul>
         <li class ="category"><%= link_to "Tumblr", root_path  %></li>
         <li><%= link_to "Posts", root_path %></li>
         <li class="number2"><%= link_to "About", about_path %></li>
-      </ui>
+      </ul>
       <% if !user_signed_in? %>
         <p class="number2"><%= link_to "User Login", new_user_session_path %></p>
       <% end %>
